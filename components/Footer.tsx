@@ -16,7 +16,7 @@ const Footer = () => {
 
       {/* centered content */}
       <div className="relative flex flex-col items-center text-center z-10 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-white lg:max-w-[45vw]">
+        <h1 className="text-white font-bold text-5xl md:text-[4rem] text-center lg:max-w-[45vw]">
           Ready to take <span className="text-purple">your</span> digital
           presence to the next level?
         </h1>

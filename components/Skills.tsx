@@ -9,7 +9,7 @@ const Skills = () => {
 
       <div className="flex flex-col items-center max-lg:mt-10">
 
-        <div className="heading pb-12">
+        <div className="text-white font-bold text-5xl md:text-[4rem] text-center pb-6 md:pb-12">
           Skills <span className="text-purple">I have</span>
         </div>
 
@@ -20,7 +20,7 @@ const Skills = () => {
                 <img
                   src={company.nameImg}
                   alt={company.name}
-                  className="md:w-24 w-20"
+                  className="md:w-24 w-16"
                 />
               </div>
             </React.Fragment>

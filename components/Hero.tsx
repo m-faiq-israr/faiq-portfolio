@@ -8,7 +8,7 @@ import DownloadResume from "./ui/DownloadResume";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 relative scroll-mt-20">
+    <div className="pb-20 pt-20 sm:pt-36 relative scroll-mt-20">
       {/* Spotlights */}
       <div>
         <Spotlight
@@ -36,10 +36,8 @@ const Hero = () => {
 
       {/* Main content */}
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            {/* Optional subtitle */}
-          </p>
+        <div className="max-w-[95vw] md:max-w-5xl lg:max-w-[70vw] ">
+         
 
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
@@ -49,9 +47,9 @@ const Hero = () => {
           <p className="text-center font-outfit font-semibold md:tracking-wider mt-2 mb-4 text-sm md:text-lg lg:text-2xl text-white">
             Hi! I&apos;m Faiq, a <span className="text-[#CBACF9]"> MERN Stack and Next.js Developer</span> based in Karachi.
           </p>
-<div className="flex items-center justify-center gap-4">
+<div className="sm:flex items-center justify-center gap-4 ">
 
-          <a href="#about">
+          <a href="#about" className="">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

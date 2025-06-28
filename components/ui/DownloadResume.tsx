@@ -16,7 +16,7 @@ const downloadPdf = (url: string, filename: string) => {
 
 const DownloadResume = () => {
   return (
-    <div  onClick={() => downloadPdf("/Faiq's Resume.pdf", "Faiq's Resume.pdf")}>
+    <div  onClick={() => downloadPdf("/Faiq's Resume.pdf", "Faiq's Resume.pdf")} className='mt-4 sm:mt-0'>
           <MagicButton title="Download Resume" position="right"    icon={<FaDownload />}/>
           </div>
   )

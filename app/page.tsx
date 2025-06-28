@@ -9,9 +9,10 @@ import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-  <main className="relative  flex  flex-col overflow-hidden  ">
-      <div className="px-28 w-full py-5">
-        {/* <FloatingNav navItems={navItems} /> */}
+  <main className="overflow-hidden">
+    <div className="px-4 md:px-12 lg:px-28 w-full py-5 h-full overflow-x-hidden">
+
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         <RecentProjects />

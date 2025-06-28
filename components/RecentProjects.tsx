@@ -12,25 +12,22 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-20  mt-20">
+<div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 ">
+  {projects.map((item) => (
+<div
+  key={item.id}
+  className="flex items-center justify-center
+             w-full 
+             h-[25rem] lg:min-h-[37rem]"
+>
 
-
-        {projects.map((item) => (
-          <div
-            className="lg:min-h-[37rem] h-[25rem] flex items-center justify-center w-full"
-            key={item.id}
-          >
+          
             <PinContainer
               title="/ui.aceternity.com"
               href="https://twitter.com/mannupaaji"
             >
              <div className="relative 
-                        w-[320px] h-[180px] 
-                        sm:w-[400px] sm:h-[220px] 
-                        md:w-[500px] md:h-[280px] 
-                        lg:w-[560px] lg:h-[350px] 
-                        xl:w-[590px] xl:h-[350px] 
-                        2xl:w-[700px] 2xl:h-[400px] 
+                       w-full h-full
                         overflow-hidden mb-6 rounded-2xl">
 
 
@@ -76,12 +73,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                {/* <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                </div> */}
               </div>
             </PinContainer>
           </div>

@@ -7,7 +7,7 @@ import { FaLocationArrow } from 'react-icons/fa6';
 const ProjectSection = () => {
     return (
         <section id='projects' className='py-20'>
-            <h1 className="text-white font-bold text-5xl md:text-[4rem] text-center">
+            <h1 className="text-white font-bold text-4xl md:text-[4rem] text-center">
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h1>

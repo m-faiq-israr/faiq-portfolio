@@ -7,11 +7,11 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
+      <h1 className="text-white font-bold text-4xl md:text-[4rem] text-center">
         My <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-10 sm:my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Planning & Strategy"

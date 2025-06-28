@@ -9,7 +9,7 @@ const Skills = () => {
 
       <div className="flex flex-col items-center max-lg:mt-10">
 
-        <div className="text-white font-bold text-5xl md:text-[4rem] text-center pb-6 md:pb-12">
+        <div className="text-white font-bold text-4xl md:text-[4rem] text-center pb-4 md:pb-12">
           Skills <span className="text-purple">I have</span>
         </div>
 

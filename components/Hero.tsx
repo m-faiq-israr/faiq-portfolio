@@ -2,6 +2,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import DownloadResume from "./ui/DownloadResume";
+
+
 
 const Hero = () => {
   return (
@@ -46,14 +49,17 @@ const Hero = () => {
           <p className="text-center font-outfit font-semibold md:tracking-wider mt-2 mb-4 text-sm md:text-lg lg:text-2xl text-white">
             Hi! I&apos;m Faiq, a <span className="text-[#CBACF9]"> MERN Stack and Next.js Developer</span> based in Karachi.
           </p>
+<div className="flex items-center justify-center gap-4">
 
           <a href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
-            />
+              />
           </a>
+          <DownloadResume/>
+              </div>
         </div>
       </div>
     </div>

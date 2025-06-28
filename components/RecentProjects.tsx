@@ -12,21 +12,21 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-<div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 ">
-  {projects.map((item) => (
-<div
-  key={item.id}
-  className="flex items-center justify-center
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 ">
+        {projects.map((item) => (
+          <div
+            key={item.id}
+            className="flex items-center justify-center
              w-full 
              h-[25rem] lg:min-h-[37rem]"
->
+          >
 
-          
+
             <PinContainer
               title="/ui.aceternity.com"
               href="https://twitter.com/mannupaaji"
             >
-             <div className="relative 
+              <div className="relative 
                        w-full h-full
                         overflow-hidden mb-6 rounded-2xl">
 
